@@ -937,3 +937,7 @@ func hideMenuItem(item *MenuItem) {
 func showMenuItem(item *MenuItem) {
 	addOrUpdateMenuItem(item)
 }
+
+func ShowMenu() {
+	wt.showMenu()
+}
